@@ -1,0 +1,252 @@
+body {
+    margin: 32px auto;
+    width: 65%;
+    padding: 16px;
+    max-width: 800px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    color: #454545;
+    background-color: #FEFEFE;
+    text-align: justify;
+}
+
+.sub {
+	margin-top: -1em;
+}
+
+a {
+	color: #07a;
+}
+
+a:visited {
+	color: #941352;
+}
+
+.motherfucker {
+	color: #730000;
+}
+
+.wrong {
+	color: #c0392b;
+	text-decoration: underline;
+}
+
+small {
+	font-size: .4em;
+}
+
+/* START OF RAINBOW ANIMATION */
+/* Credits for this animation: https://codepen.io/cabron/ */
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+}
+
+/* END OF RAINBOW ANIMATION */
+
+.blue {
+	color: #00E;
+	cursor: not-allowed;
+}
+
+.violet {
+	color: #551A8B;
+	cursor: not-allowed;
+}
+
+.wtf {
+	font-family: monospace;
+	font-size: .9em;
+}
+
+ul li img {
+    height: 1em;
+}
+
+.four {
+	color: #444;
+}
+
+.four:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: .2em;
+    margin-right: .2em;
+    background-color: #444;
+}
+
+.fourfive {
+	color: #454545;
+}
+
+.fourfive:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: .2em;
+    margin-right: .2em;
+    background-color: #454545;
+}
+
+.cat {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right: 1em;
+}
+
+.cat img {
+	width: 100%;
+}
+
+.caption {
+	font-size: .7em;
+}
+
+.picblock {
+	float: left;
+	width: 55%;
+}
+
+.position:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+div.position div.picblock p:first-child {
+	margin-top: 0;
+}
+
+blockquote {
+    color: #456;
+    margin-left: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+blockquote:before {
+    font-family: 'Tinos', serif;
+    color: #666;
+    content: open-quote;
+    font-size: 2.2em;
+    font-weight: 600;
+    float: left;
+    margin-top: 0;
+    margin-right: .2rem;
+    width: 1.2rem;
+}
+
+blockquote span {
+    float: left;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+blockquote author {
+    display: block;
+    clear: both;
+    font-size: .6em;
+    margin-left: 2.4rem;
+    font-style: oblique;
+}
+
+blockquote author:before {
+    content: "- ";
+    margin-right: 1em;
+}
+
+blockquote:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.need {
+    vertical-align: top;
+    font-size: .7em;
+    padding-left: .3em;
+}
+
+.kopimi {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2em;
+}
+
+.visited {
+	color: #941352;
+}
+
+.maroon {
+	color: #85144b;
+}
+
+#contrast, #invmode {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    font-size: .8em;
+    text-decoration: underline;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#contrast {
+    color: #000;
+    top: 10px;
+}
+
+#invmode {
+    color: #fff;
+    background-color: #000;
+    top: 34px;
+    padding: 2px 5px;
+}
